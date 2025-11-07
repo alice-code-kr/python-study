@@ -95,7 +95,7 @@ while running:
         if block_speed < 15:
             block_speed += 0.5  # 블록 속도 증가
         if spawn_rate > 10:
-            spawn_rate -= 1  # 블록 생성 확률 증가 (더 자주 떨어짐)
+            spawn_rate -= 1  # 블록 생성 확률 증가 (더 자주 떨어짐) Test
 
     # 그리기
     draw_player(player_x, player_y)
